@@ -17,8 +17,8 @@
 </div>
 
 <script>
-new Vue({
-  el: '#app',
+new Vue({//新创建实例
+  el: '#app',//绑定div标签,仅对绑定的div的子内容生效
   data: {
     message: 'Hello Vue.js!'
   }
