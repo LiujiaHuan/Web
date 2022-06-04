@@ -45,4 +45,5 @@ alert( document.body.previousSibling ); // HTMLHeadElement
 * **firstElementChild，lastElementChild — 第一个和最后一个子元素**
 * **previousElementSibling，nextElementSibling — 兄弟元素**
 
-# 详细请看WEb/P_DOM文件夹
+# 详细请看WEB/P_DOM文件夹
+里面放了整个导图
