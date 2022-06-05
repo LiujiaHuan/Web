@@ -27,7 +27,7 @@ for (let node of document.body.childNodes) {
   alert(node); // 显示集合中的所有节点
 }
 ```
-# **兄弟节点 父节点 **
+# 2 .**兄弟节点 父节点**
 * **nextSlibling**
 * **previousSibling**
 ```js
@@ -40,7 +40,7 @@ alert( document.head.nextSibling ); // HTMLBodyElement
 // <body> 的前一个是 <head>
 alert( document.body.previousSibling ); // HTMLHeadElement
 ```
-# 纯元素导航（不要类似注释 文本等节点）
+# 3. 纯元素导航（不要类似注释 文本等节点）
 * **children**
 * **firstElementChild，lastElementChild — 第一个和最后一个子元素**
 * **previousElementSibling，nextElementSibling — 兄弟元素**
