@@ -1,0 +1,39 @@
+.msg_left {
+    position: absolute;
+    margin: 30px 30px;
+    max-width: 200px;
+    min-height: 20px;
+    padding: 8px;
+    border: solid 1px #ff6a00;
+    border-radius: 10px;
+    background: limegreen;
+    display: inline;
+}
+.msg_left:before {
+    position: absolute;
+    top: 6px;
+    left: -20px;
+    padding: 0;
+    border: 10px solid;
+    border-color: transparent #ff6a00 transparent transparent;
+    display: block;
+    content: '';
+    z-index: 9;
+}
+.msg_left:after {
+    position: absolute;
+    top: 6px;
+    left: -18px;
+    padding: 0;
+    border: 10px solid;
+    border-color: transparent limegreen transparent transparent;
+    display: block;
+    content: '';
+    z-index: 10;
+}
+.UserInfo{
+    display: inline;
+}
+.UserName{
+    display: inline;
+}
